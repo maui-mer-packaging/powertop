@@ -63,7 +63,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %doc COPYING
 %doc /usr/share/man/man8/powertop.8.gz
-%{_sbindir}/powertop-original
 %{_sbindir}/powertop
 # >> files
 # << files
