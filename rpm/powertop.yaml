@@ -17,6 +17,7 @@ Sources:
     - "%{name}-%{version}.tar.xz"
 SetupOptions: -q -n %{name}-%{version}/upstream
 License: GPLv2
+Configure: reconfigure
 PkgConfigBR:
     - ncursesw
     - libnl-3.0
